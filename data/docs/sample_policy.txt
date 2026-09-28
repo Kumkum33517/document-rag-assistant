@@ -1,0 +1,8 @@
+Campus Library Policy
+
+Borrowing: Each student can borrow up to 4 books at a time for a period of 14 days.
+Renewals: A book can be renewed twice, provided no other student has reserved it.
+Fines: A late return is fined Rs 5 per day per book.
+Lost books: If a book is lost, the student must pay the replacement cost of the book plus a Rs 200 processing fee.
+Timings: The reading room is open from 8 AM to 10 PM on weekdays and 9 AM to 5 PM on Saturdays. The library is closed on Sundays.
+Alumni: Alumni can get library membership for Rs 1000 per year and may borrow up to 2 books at a time.
