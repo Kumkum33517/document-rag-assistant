@@ -10,6 +10,10 @@ A fully local, document-based RAG app. Upload PDF/TXT/MD files, ask questions, a
 - UI: Streamlit
 - Strict RAG prompt: answers only from retrieved context, otherwise replies "I could not find this in the provided documents."
 
+## Prerequisites
+- macOS with Homebrew, Python 3.10+
+- About 5 GB free disk space (llama3.2:3b is ~2 GB) and 8 GB RAM
+- Internet on the first run only (downloads the Ollama model and the ~90 MB embedding model)
 ## Setup (macOS)
 
 1. Install Ollama and pull the model:
@@ -32,6 +36,9 @@ A fully local, document-based RAG app. Upload PDF/TXT/MD files, ask questions, a
 
 ## Run the tests
 
+The index must be built first:
+
+    python -c "from src.pipeline import ingest; print(ingest())"
     python tests/test_questions.py
 
 Runs the test questions, including one out-of-scope question that must be refused.
